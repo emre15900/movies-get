@@ -47,6 +47,7 @@ function SearchMovie() {
 
       <div className="mainMovie">
         <div className="mainBoxs">
+        {movieData.length === 0 && <p>No Found Result!</p>}
           {movieData.map((item) => {
             return (
               <div key={item.id} className="boxs">
