@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import "./index.css";
+import SearchMovie from "./components/SearchMovie/SearchMovie";
 
 function App() {
   return (
-    <div className="App">
-
+    <div>
+      <SearchMovie />
     </div>
   );
 }
